@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'HeartBubble';
+    src: url(fonts/Sweetbliss\ Personal\ Use.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'KOVAENTERTAINMENT';
+    src: url(fonts/BebasNeue-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'CheriS';
+    src: url(fonts/StylishCalligraphyDemo-XPZZ.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'Cherries';
+    src: url(fonts/BubblegumBliss.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; 
+}
+
+h1 {
+  font-family: 'KOVAENTERTAINMENT';
+  color: black;
+}
+
+h2 {
+    color:rgb(210, 200, 255);
+    font-family:'CheriS';
+    font-size: 50px;
+}
+h3 {
+    color: #b1bef2;
+    font-family: 'HeartBubble';
+    font-size: 25px;
+}
+body {
+    text-align: center;
+    background-color:#fee3ec;
+    color:pink;
+}
+
+img {
+    height: 250px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color:rgb(210, 200, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none; 
+    background-color: #f2e6f0;
+    border-radius: 6px; 
+    border: 1px solid rgba(124, 0, 45, 0.336);
+    transition: background-color 0.2s ease;
+    cursor: pointer;  
+}
+.button:hover {
+  background-color: #fff4fc;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 25px;
+    font-family: 'HeartBubble';
+    background-color: #f2e6f0;
+    font-size: 20px;
+}
+#logo {
+    width: 75px;
+    height: auto;
+    display: block;
+}
+h4 {
+    font-size: 25px;
+    color: #b1bef2;
+    font-family: 'HeartBubble';
+}
+.member-grid {
+    display: grid;
+    /* Automatically fits as many 300px columns as possible side-by-side */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.member-card {
+    padding: 10px;
+    background-color: #f2e6f0;
+}
+
+.photo-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.photo-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+p {
+    margin: 4px 0;
+    color: #b1bef2;
+    font-family: 'Cherries';
+}
+h5 {
+    font-size: 20px;
+    font-family: 'Cherries';
+    color:#b1bef2
+}
