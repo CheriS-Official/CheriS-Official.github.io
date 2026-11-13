@@ -7,8 +7,8 @@
 }
 
 @font-face {
-    font-family: 'KOVAENTERTAINMENT';
-    src: url(fonts/BebasNeue-Regular.ttf) format('truetype');
+    font-family: 'NFinity';
+    src: url(fonts/MotivateRegular-lx4PV.otf) format('opentype');
     font-weight: 400;
     font-style: normal;
     font-display: swap; 
@@ -31,7 +31,7 @@
 }
 
 h1 {
-  font-family: 'KOVAENTERTAINMENT';
+  font-family: 'NFinity';
   color: black;
 }
 
@@ -127,4 +127,8 @@ h5 {
     font-size: 20px;
     font-family: 'Cherries';
     color:#b1bef2
+}
+.NFinity-website {
+  text-decoration: none;
+  color: inherit;
 }
